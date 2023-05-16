@@ -1,0 +1,101 @@
+Site - https://dou.ua/
+
+Use Case 1: Job Seeker's Profile Creation
+
+Description:
+As a job seeker, I want to create a profile on the dou.ua website to enhance my visibility and increase my chances of finding relevant job opportunities.
+
+Preconditions:
+
+The user is a job seeker.
+The user has access to the internet and a compatible device.
+The dou.ua website is accessible and functional.
+Steps:
+
+The user navigates to the dou.ua website.
+The user clicks on the "Sign Up" or "Create Account" button.
+The user is presented with a registration form, requesting necessary information such as name, email address, password, and professional details.
+The user fills in the required information and submits the form.
+The website verifies the entered information for validity and uniqueness.
+If the information is valid and unique, the user's account is created, and they receive a confirmation email.
+The user clicks on the confirmation link in the email to activate their account.
+Upon activation, the user is redirected to their newly created profile page.
+The user can now customize their profile by adding additional details such as education, work experience, skills, and a professional summary.
+The user saves their profile, making it visible to potential employers.
+The user can edit and update their profile at any time.
+Postconditions:
+
+The user has a registered account on dou.ua.
+The user has a profile with relevant professional information.
+The user can manage and update their profile as needed.
+
+
+Use Case 2: Job Search and Application
+
+Description:
+As a job seeker, I want to utilize the dou.ua website to search for job opportunities and apply for positions that match my skills and interests.
+
+Preconditions:
+
+The user is a registered job seeker on dou.ua.
+The user has access to the internet and a compatible device.
+The dou.ua website is accessible and functional.
+Job listings are available on the website.
+Steps:
+
+The user logs in to their dou.ua account.
+The user navigates to the "Job Search" or "Find Jobs" section.
+The user enters search criteria such as job title, location, industry, or keywords.
+The website retrieves relevant job listings based on the provided criteria.
+The user can filter and sort the search results to refine their options.
+The user clicks on a specific job listing to view more details.
+The user reviews the job description, required qualifications, and application instructions.
+If interested, the user clicks on the "Apply" button or follows the specified application process.
+The user is redirected to a form or page where they can submit their application.
+The user fills in the necessary information, which may include personal details, resume, cover letter, and additional documents.
+The user submits the application.
+The website confirms the successful submission of the application and provides a confirmation message or email.
+The user can track the status of their applications through their dou.ua account.
+Postconditions:
+
+The user has successfully searched for job opportunities on dou.ua.
+The user has applied for one or more positions.
+The user can monitor the status of their applications.
+The user can receive notifications or updates related to their applications, if available.
+
+
+Use Case 3: Employer's Job Posting and Candidate Management
+
+Description:
+As an employer, I want to utilize the dou.ua website to post job openings and efficiently manage the applications received from potential candidates.
+
+Preconditions:
+
+The user is an employer or authorized representative of a company.
+The user has access to the internet and a compatible device.
+The dou.ua website is accessible and functional.
+The employer account on dou.ua has been created and verified.
+Steps:
+
+The employer logs in to their dou.ua account.
+The employer navigates to the "Employer Dashboard" or a similar section.
+The employer selects the option to "Post a New Job" or "Create Job Opening."
+The employer is presented with a form to enter job details, including job title, description, required qualifications, location, and other relevant information.
+The employer fills in the necessary details and clicks on the "Submit" or "Publish" button.
+The website verifies the entered information and publishes the job listing on dou.ua.
+The employer can view and manage their posted job openings on the employer dashboard.
+The employer can edit or update job listings as needed, such as modifying the job description, qualifications, or application deadline.
+The employer can track the number of views and applications received for each job posting.
+When candidates apply for a job, the employer receives notifications through the dou.ua website and/or email.
+The employer can access the received applications and review candidates' resumes, cover letters, and other submitted documents.
+The employer can shortlist, reject, or take other actions on individual applications, such as scheduling interviews or sending follow-up messages.
+The employer can communicate with candidates directly through the dou.ua platform, sending messages or requesting additional information.
+The employer can update the status of each application, keeping track of candidates' progress in the hiring process.
+The employer can make final hiring decisions and proceed with the necessary steps to onboard the selected candidate.
+Postconditions:
+
+The employer has successfully posted job openings on dou.ua.
+The employer can manage and update their job listings.
+The employer has received applications from potential candidates.
+The employer can review, communicate, and track the status of applications.
+The employer has made hiring decisions and completed the recruitment process for the selected candidates.
