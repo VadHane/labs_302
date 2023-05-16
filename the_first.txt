@@ -1,0 +1,11 @@
+Site: https://dou.ua/
+
+
+1 case:
+As user, I wanna able to see the list of available pages in header, so then I could switch my current page and use it in any place of site
+
+2 case:
+As user, I wanna able to log in using my email and password, so then I could see my account history, setting up my profile and use it for communication on the site
+
+3 case:
+As user, I wanna able to create new post after I log site in, so then I would publish my post and see it's statistic up
