@@ -1,0 +1,30 @@
+pm.test("Returned status code is 200", function () {
+  pm.response.to.have.status(200);
+});
+
+pm.test("Content-Type is text/html", function () {
+  pm.response.to.have.header("Content-Type", "text/html; charset=utf-8");
+});
+
+pm.test("HTML response contains an element <head> and <body>", function () {
+  pm.expect(pm.response.text()).to.include('<head>');
+  pm.expect(pm.response.text()).to.include('<body>');
+});
+
+pm.test("HTML response contains the text 'google'", function () {
+  pm.expect(pm.response.text()).to.include('google');
+});
+
+pm.test("HTML response does not contain errors", function () {
+  pm.expect(pm.response.text()).to.not.include('404 Not Found');
+});
+
+pm.test("Response contains two cookies", function () {
+  pm.expect(pm.cookies.has("NID")).to.be.true;
+  pm.expect(pm.cookies.has("__Host-GAPS")).to.be.true;
+});
+
+pm.test("Domain of cookies matches the expected value", function () {
+  pm.expect(pm.cookies.get("NID").domain).to.equal("google.com");
+//   pm.expect(pm.cookies.get("__Host-GAPS").domain).to.equal("accounts.google.com");
+});
